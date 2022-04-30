@@ -1,0 +1,12 @@
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/bin/Debug/net6.0/MyApp.ServiceModel.deps.json
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/bin/Debug/net6.0/MyApp.ServiceModel.dll
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/bin/Debug/net6.0/MyApp.ServiceModel.pdb
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/MyApp.ServiceModel.csproj.AssemblyReference.cache
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/MyApp.ServiceModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/MyApp.ServiceModel.AssemblyInfoInputs.cache
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/MyApp.ServiceModel.AssemblyInfo.cs
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/MyApp.ServiceModel.csproj.CoreCompileInputs.cache
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/MyApp.ServiceModel.dll
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/refint/MyApp.ServiceModel.dll
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/MyApp.ServiceModel.pdb
+/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/Debug/net6.0/ref/MyApp.ServiceModel.dll

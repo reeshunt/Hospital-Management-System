@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4iFl1uf+yDLS1o2N9Oiwc7QtESn/hhFyX8X6e0GxcpIrPS3WdbXWxWoFlybouZVPz0nFeayQwh2drZPbTiuNxA==",
+  "success": true,
+  "projectFilePath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj",
+  "expectedPackageFiles": [
+    "/Users/rees/.nuget/packages/servicestack.interfaces/6.0.2/servicestack.interfaces.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

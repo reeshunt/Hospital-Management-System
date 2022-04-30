@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rees/Desktop/mvcidentity-master/MyApp/MyApp.csproj": {}
+  },
+  "projects": {
+    "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceInterface/MyApp.ServiceInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceInterface/MyApp.ServiceInterface.csproj",
+        "projectName": "MyApp.ServiceInterface",
+        "projectPath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceInterface/MyApp.ServiceInterface.csproj",
+        "packagesPath": "/Users/rees/.nuget/packages/",
+        "outputPath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceInterface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rees/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj": {
+                "projectPath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[6.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj",
+        "projectName": "MyApp.ServiceModel",
+        "projectPath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj",
+        "packagesPath": "/Users/rees/.nuget/packages/",
+        "outputPath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rees/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ServiceStack.Interfaces": {
+              "target": "Package",
+              "version": "[6.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rees/Desktop/mvcidentity-master/MyApp/MyApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rees/Desktop/mvcidentity-master/MyApp/MyApp.csproj",
+        "projectName": "MyApp",
+        "projectPath": "/Users/rees/Desktop/mvcidentity-master/MyApp/MyApp.csproj",
+        "packagesPath": "/Users/rees/.nuget/packages/",
+        "outputPath": "/Users/rees/Desktop/mvcidentity-master/MyApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rees/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceInterface/MyApp.ServiceInterface.csproj": {
+                "projectPath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceInterface/MyApp.ServiceInterface.csproj"
+              },
+              "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj": {
+                "projectPath": "/Users/rees/Desktop/mvcidentity-master/MyApp.ServiceModel/MyApp.ServiceModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Twitter": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[6.*, )"
+            },
+            "ServiceStack.Mvc": {
+              "target": "Package",
+              "version": "[6.*, )"
+            },
+            "ServiceStack.Server": {
+              "target": "Package",
+              "version": "[6.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
